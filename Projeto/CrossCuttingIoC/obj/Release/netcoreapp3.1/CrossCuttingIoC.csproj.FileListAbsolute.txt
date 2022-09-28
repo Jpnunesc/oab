@@ -1,0 +1,17 @@
+C:\projetos\OAB\Projeto\CrossCuttingIoC\bin\Release\netcoreapp3.1\CrossCuttingIoC.deps.json
+C:\projetos\OAB\Projeto\CrossCuttingIoC\bin\Release\netcoreapp3.1\CrossCuttingIoC.dll
+C:\projetos\OAB\Projeto\CrossCuttingIoC\bin\Release\netcoreapp3.1\CrossCuttingIoC.pdb
+C:\projetos\OAB\Projeto\CrossCuttingIoC\bin\Release\netcoreapp3.1\Business.dll
+C:\projetos\OAB\Projeto\CrossCuttingIoC\bin\Release\netcoreapp3.1\Domain.dll
+C:\projetos\OAB\Projeto\CrossCuttingIoC\bin\Release\netcoreapp3.1\Infra.dll
+C:\projetos\OAB\Projeto\CrossCuttingIoC\bin\Release\netcoreapp3.1\Business.pdb
+C:\projetos\OAB\Projeto\CrossCuttingIoC\bin\Release\netcoreapp3.1\Infra.pdb
+C:\projetos\OAB\Projeto\CrossCuttingIoC\bin\Release\netcoreapp3.1\Domain.pdb
+C:\projetos\OAB\Projeto\CrossCuttingIoC\obj\Release\netcoreapp3.1\CrossCuttingIoC.csproj.AssemblyReference.cache
+C:\projetos\OAB\Projeto\CrossCuttingIoC\obj\Release\netcoreapp3.1\CrossCuttingIoC.GeneratedMSBuildEditorConfig.editorconfig
+C:\projetos\OAB\Projeto\CrossCuttingIoC\obj\Release\netcoreapp3.1\CrossCuttingIoC.AssemblyInfoInputs.cache
+C:\projetos\OAB\Projeto\CrossCuttingIoC\obj\Release\netcoreapp3.1\CrossCuttingIoC.AssemblyInfo.cs
+C:\projetos\OAB\Projeto\CrossCuttingIoC\obj\Release\netcoreapp3.1\CrossCuttingIoC.csproj.CoreCompileInputs.cache
+C:\projetos\OAB\Projeto\CrossCuttingIoC\obj\Release\netcoreapp3.1\CrossCuttingIoC.csproj.CopyComplete
+C:\projetos\OAB\Projeto\CrossCuttingIoC\obj\Release\netcoreapp3.1\CrossCuttingIoC.dll
+C:\projetos\OAB\Projeto\CrossCuttingIoC\obj\Release\netcoreapp3.1\CrossCuttingIoC.pdb

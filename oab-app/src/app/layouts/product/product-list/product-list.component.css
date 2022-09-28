@@ -1,0 +1,17 @@
+.button-margin {
+    margin-left: 90%;
+}
+.form-filter {
+    align-items: center;
+    display: initial;
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+  .margin-edit {
+    margin-right: 5px;
+    margin-left: 5px;
+  }

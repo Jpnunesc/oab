@@ -1,0 +1,88 @@
+<div class="panel-header panel-header-sm">
+</div>
+<div class="main-content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <div class="float-right">
+                        <button class="btn btn-primary button-margin" routerLink="../create"> Cadastrar
+                        </button>
+                    </div>
+                    <form [formGroup]="formFilter">
+                        <div class="row form-filter">
+                            <div class="col-sm-6 col-lg-4">
+                                <label class="form-label">Nome</label>
+                                <input type="text" formControlName="name" class="form-control">
+
+                            </div>
+                            <div class="col-sm-6 col-lg-4"> 
+                                <button type="button" class="btn btn-info" style="margin-top: 20px;"
+                                (click)="getProduct()">Pesquisar</button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+                <div class="card-body" *ngIf="data?.length">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead class=" text-primary">
+                                <th style="width:10%">
+                                    Imagem do produto
+                                </th>
+                                <th>
+                                    Código de barra
+                                </th>
+                                <th>
+                                    Nome
+                                </th>
+                                <th>
+                                    Preço
+                                </th>
+                                <th>
+                                    Status
+                                </th>
+                                <th></th>
+                            </thead>
+                            <tbody>
+                                <tr *ngFor="let item of data | paginate: {
+                                                                        itemsPerPage: formFilter.get('pageSize')?.value,
+                                                                        currentPage: formFilter.get('page')?.value,
+                                                                        totalItems: totalItems}">
+                                    <td>
+                                        <img class="image" [src]="item.image">
+                                    </td>
+                                    <td>
+                                        {{item.sku}}
+                                    </td>
+                                    <td>
+                                        {{item.name}}
+                                    </td>
+                                    <td>
+                                        {{item.price}}
+                                    </td>                                  
+                                    <td>
+                                        {{item.status == 1 ? 'Ativo' : 'Desativado'}}
+                                    </td>
+                                    <td>
+                                        <button type="button" class="btn btn-primary" routerLink="../edit/{{item.id}}">Editar</button>
+                                        <button class="btn btn-secondary margin-edit " routerLink="../detail/{{item.id}}">Detalhe</button>
+                                        <button type="button" class="btn btn-danger"
+                                            (click)="opemModal = true; idItemDelete = item.id">Excluir</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <pagination-controls 
+                        (pageChange)="formFilter.get('page')?.setValue($event); getProduct()"  
+                        previousLabel="Anterior"
+                        nextLabel="Próximo"></pagination-controls>
+                    </div>
+                </div>
+                <label *ngIf="!data?.length">no records...</label>
+            </div>
+        </div>
+    </div>
+</div>
+<app-modal [opem]="opemModal" (cancel)="opemModal = false" (confirm)="deleteItem()"></app-modal>

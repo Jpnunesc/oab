@@ -1,0 +1,10 @@
+C:\projetos\OAB\Projeto\Domain\bin\Release\netcoreapp3.1\Domain.deps.json
+C:\projetos\OAB\Projeto\Domain\bin\Release\netcoreapp3.1\Domain.dll
+C:\projetos\OAB\Projeto\Domain\bin\Release\netcoreapp3.1\Domain.pdb
+C:\projetos\OAB\Projeto\Domain\obj\Release\netcoreapp3.1\Domain.csproj.AssemblyReference.cache
+C:\projetos\OAB\Projeto\Domain\obj\Release\netcoreapp3.1\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\projetos\OAB\Projeto\Domain\obj\Release\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+C:\projetos\OAB\Projeto\Domain\obj\Release\netcoreapp3.1\Domain.AssemblyInfo.cs
+C:\projetos\OAB\Projeto\Domain\obj\Release\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
+C:\projetos\OAB\Projeto\Domain\obj\Release\netcoreapp3.1\Domain.dll
+C:\projetos\OAB\Projeto\Domain\obj\Release\netcoreapp3.1\Domain.pdb

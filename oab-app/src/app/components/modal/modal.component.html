@@ -1,0 +1,19 @@
+<div *ngIf="opem" class="modal-form" tabindex="-1" aria-labelledby="exampleModalLabel">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header" style="background: gray;">
+          <h5 class="modal-title" id="exampleModalLabel" style="color: #fbfbfb;">Ateção!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="fechar()">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-msg-content">
+          Tem certeza que deseja excluir?
+        </div>
+        <div class="modal-footer modal-footer-color">
+          <button type="button" class="btn btn-secondary" (click)="excluir()">sim</button>
+          <button type="button" class="btn btn-danger" (click)="fechar()">Não</button>
+        </div>
+      </div>
+    </div>
+  </div> 

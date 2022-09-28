@@ -1,0 +1,70 @@
+<div class="panel-header panel-header-sm">
+</div>
+<div class="main-content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <div class="float-right">
+                        <button class="btn btn-secondary" [routerLink]="retunrUrl"> Voltar
+                        </button>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <form [formGroup]="form">
+                        <div class="row">
+                            <div class="col-sm-6 col-lg-6">
+                                <label class="form-label">Nome</label>
+                                <input type="text" formControlName="name"
+                                    [class]="disabled ? 'form-control disabled' : 'form-control'">
+                                <field-errors [control]="form.get('name')">
+                                </field-errors>
+                            </div>
+                            <div class="col-sm-6 col-lg-6">
+                                <label class="form-label">Código de barra</label>
+                                <input type="text" formControlName="sku"
+                                    [class]="disabled ? 'form-control disabled' : 'form-control'">
+                                <field-errors [control]="form.get('sku')">
+                                </field-errors>
+                            </div>
+                            <div class="col-sm-6 col-lg-6">
+                                <label class="form-label">Preço</label>
+                                <input type="number" formControlName="price"
+                                    [class]="disabled ? 'form-control disabled' : 'form-control'">
+                                <field-errors [control]="form.get('price')">
+                                </field-errors>
+                            </div>
+                            <div class="col-sm-6 col-lg-6">
+                                <label class="form-label">Departamento</label>
+                                <select formControlName="status"
+                                    [class]="disabled ? 'form-control disabled' : 'form-control'">
+                                    <option value="">select</option>
+                                    <option *ngFor="let item of listStatus" value="{{item.id}}">
+                                        {{item.name}}
+                                    </option>
+                                </select>
+                                <field-errors [control]="form.get('status')">
+                                </field-errors>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Descrição</label>
+                                <textarea formControlName="description" [class]="disabled ? 'form-control disabled' : 'form-control'" rows="3"></textarea>
+                              </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-lg-12" style="display: grid;">
+                                <label class="form-label">Imagem (Logo)</label>
+                                <input #file type="file" accept='image/*' [class]="disabled ? 'form-control disabled' : 'form-control'" (change)="preview(file.files)" />
+                            </div>
+                            <div class="col-sm-12 col-lg-12">
+                                <img [src]="imgURL" height="200" *ngIf="imgURL">
+                            </div>
+                        </div>
+                        <button *ngIf="!disabled" type="submit" class="btn btn-primary button-margin" (click)="save()">Salvar</button>
+                    </form>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

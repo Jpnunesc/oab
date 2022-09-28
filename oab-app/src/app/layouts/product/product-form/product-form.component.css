@@ -1,0 +1,7 @@
+.button-margin {
+margin-top: 1%;
+}
+.disabled{
+    pointer-events:none;
+    outline:none;
+}
