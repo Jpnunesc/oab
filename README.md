@@ -3,6 +3,17 @@
 <br />Login: sup 
 <br />senha: sup 
 
+## Tutorial docker
+**Requisitos e comandos:**
+1. Instale Docker [Docker Official Page](https://docs.docker.com/desktop/install/windows-install/).
+2. Abra o terminal
+3. Dentro do projeto entre no diretorio "oab\Projeto\Api"
+4. execute no terminal: ```docker-compose up --build```
+7. Abra o browser com a rota: [localhost:4200](localhost:4200)
+
+
+#### Tutorial localhost:
+
 ## Tutorial frontEnd em Angular 11
 **Requisitos e comandos:**
 1. Instale NodeJs [NodeJs Official Page](https://nodejs.org/en).
