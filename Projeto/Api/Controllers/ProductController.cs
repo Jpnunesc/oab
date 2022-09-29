@@ -23,7 +23,6 @@ namespace Api.Controllers
 
         [HttpPost]
         [DisableRequestSizeLimit]
-        //TODO: Deve-se color uma validação do tamanho da imagem no front para padronizar a requisição.
         public async Task<IActionResult> Post([FromForm] ProductInput _product)
         {
             try
@@ -38,10 +37,12 @@ namespace Api.Controllers
         }
 
         [HttpPut]
-        public async Task<IActionResult> Put([FromBody] ProductInput _product)
+        [DisableRequestSizeLimit]
+        public async Task<IActionResult> Put([FromForm] ProductInput _product)
         {
             try
             {
+                _product = JsonConvert.DeserializeObject<ProductInput>(Request.Form["product"]);
                 return Ok(await _service.Edit(_product));
             }
             catch (Exception ex)

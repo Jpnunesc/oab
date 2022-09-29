@@ -73,3 +73,13 @@ C:\projetos\OAB\Projeto\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompile
 C:\projetos\OAB\Projeto\Domain\obj\Debug\netcoreapp3.1\Domain.dll
 C:\projetos\OAB\Projeto\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
 C:\projetos\OAB\Projeto\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.AssemblyReference.cache
+C:\projetos\oab-new\oab\Projeto\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+C:\projetos\oab-new\oab\Projeto\Domain\bin\Debug\netcoreapp3.1\Domain.dll
+C:\projetos\oab-new\oab\Projeto\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\projetos\oab-new\oab\Projeto\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.AssemblyReference.cache
+C:\projetos\oab-new\oab\Projeto\Domain\obj\Debug\netcoreapp3.1\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\projetos\oab-new\oab\Projeto\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+C:\projetos\oab-new\oab\Projeto\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+C:\projetos\oab-new\oab\Projeto\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
+C:\projetos\oab-new\oab\Projeto\Domain\obj\Debug\netcoreapp3.1\Domain.dll
+C:\projetos\oab-new\oab\Projeto\Domain\obj\Debug\netcoreapp3.1\Domain.pdb

@@ -38,4 +38,12 @@ export class ProductService extends StandardService<any>  {
         callback(resp);
       });
   }
+  put(product: any, callback?: any) {
+    const formData = new FormData();
+    formData.append('product', JSON.stringify(product));
+    this.http.put<any>(this.url, formData)
+      .subscribe((resp: any) => {
+        callback(resp);
+      });
+  }
 }

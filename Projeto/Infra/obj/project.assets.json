@@ -6203,11 +6203,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projetos\\OAB\\Projeto\\Infra\\Infra.csproj",
+      "projectUniqueName": "C:\\projetos\\oab-new\\oab\\Projeto\\Infra\\Infra.csproj",
       "projectName": "Infra",
-      "projectPath": "C:\\projetos\\OAB\\Projeto\\Infra\\Infra.csproj",
+      "projectPath": "C:\\projetos\\oab-new\\oab\\Projeto\\Infra\\Infra.csproj",
       "packagesPath": "C:\\Users\\jpcos\\.nuget\\packages\\",
-      "outputPath": "C:\\projetos\\OAB\\Projeto\\Infra\\obj\\",
+      "outputPath": "C:\\projetos\\oab-new\\oab\\Projeto\\Infra\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jpcos\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6224,11 +6224,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\projetos\\OAB\\Projeto\\Business\\Business.csproj": {
-              "projectPath": "C:\\projetos\\OAB\\Projeto\\Business\\Business.csproj"
+            "C:\\projetos\\oab-new\\oab\\Projeto\\Business\\Business.csproj": {
+              "projectPath": "C:\\projetos\\oab-new\\oab\\Projeto\\Business\\Business.csproj"
             },
-            "C:\\projetos\\OAB\\Projeto\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\projetos\\OAB\\Projeto\\Domain\\Domain.csproj"
+            "C:\\projetos\\oab-new\\oab\\Projeto\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\projetos\\oab-new\\oab\\Projeto\\Domain\\Domain.csproj"
             }
           }
         }

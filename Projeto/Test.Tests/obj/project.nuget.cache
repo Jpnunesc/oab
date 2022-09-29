@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n+eAhr2ziv4J7uhoQwMxEzHv6NkDX71YoQZ09bMiOHVFHeEUyV8gZ+AcBhjIp8CNch7ls4kkiBEfAUcfJkVTnA==",
+  "dgSpecHash": "RrT9ka876fo/fxdR/jh18j+vX7afA7sDQjk6nKN2KptQ8xIf0rjTQWcSyAtV8iIHSB0NCTf4lZWxv+62pbe79w==",
   "success": true,
-  "projectFilePath": "C:\\projetos\\OAB\\Projeto\\Test.Tests\\Test.Tests.csproj",
+  "projectFilePath": "C:\\projetos\\oab-new\\oab\\Projeto\\Test.Tests\\Test.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jpcos\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\jpcos\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

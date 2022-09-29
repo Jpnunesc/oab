@@ -62,6 +62,7 @@ namespace Business.Services
                 return validate;
             }
             var productMap = _mapper.Map<ProductInput, ProductEntity>(_product);
+            productMap.DateRegister = DateTime.Now;
             return new ReturnView() { Object = _mapper.Map<ProductEntity, ProductOutPut>(await _repository.Update(productMap)), Message = MessageSuccess, Status = true };
         }
         public async Task<ReturnView> Delete(int id)

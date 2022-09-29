@@ -9570,11 +9570,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projetos\\OAB\\Projeto\\Test.Tests\\Test.Tests.csproj",
+      "projectUniqueName": "C:\\projetos\\oab-new\\oab\\Projeto\\Test.Tests\\Test.Tests.csproj",
       "projectName": "Test.Tests",
-      "projectPath": "C:\\projetos\\OAB\\Projeto\\Test.Tests\\Test.Tests.csproj",
+      "projectPath": "C:\\projetos\\oab-new\\oab\\Projeto\\Test.Tests\\Test.Tests.csproj",
       "packagesPath": "C:\\Users\\jpcos\\.nuget\\packages\\",
-      "outputPath": "C:\\projetos\\OAB\\Projeto\\Test.Tests\\obj\\",
+      "outputPath": "C:\\projetos\\oab-new\\oab\\Projeto\\Test.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jpcos\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9591,8 +9591,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\projetos\\OAB\\Projeto\\Api\\Api.csproj": {
-              "projectPath": "C:\\projetos\\OAB\\Projeto\\Api\\Api.csproj"
+            "C:\\projetos\\oab-new\\oab\\Projeto\\Api\\Api.csproj": {
+              "projectPath": "C:\\projetos\\oab-new\\oab\\Projeto\\Api\\Api.csproj"
             }
           }
         }

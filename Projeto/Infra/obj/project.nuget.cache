@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w6Xc+b8dY1+d7Ph4PJW9Jm8/lrIr8o2foC6gSkfsVf2WqO48WQLSGbR1Ryopw+XMuBeBB15DDXcIkdttgoS7UQ==",
+  "dgSpecHash": "Uits8+4QFSO4pZ1z/FJ5/JF7j1YR6M6VVdFQ52l7XhVgPezDBRE+z+ajtP0RIYKjyywOtLj6gzBY0AvoQoYlfw==",
   "success": true,
-  "projectFilePath": "C:\\projetos\\OAB\\Projeto\\Infra\\Infra.csproj",
+  "projectFilePath": "C:\\projetos\\oab-new\\oab\\Projeto\\Infra\\Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jpcos\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\jpcos\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512",

@@ -70,11 +70,9 @@ export class ProductFormComponent implements OnInit {
 
     this.loadingService.start();
     if (this.activeRoute.snapshot.params['id']) {
-      this.productService.httpPut(this.form.value).subscribe((data) => {
+      this.productService.put(this.form.value, (data: { status: any; message: string; }) => {
         this.loadingService.stop();
-
         if (data && data.status) {
-          this.formClear();
           this.toastr.success(data.message);
         } else {
           this.toastr.error(data.message);

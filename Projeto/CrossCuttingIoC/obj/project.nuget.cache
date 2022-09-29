@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qdMFoTfYmTFhLHRExfhBa5jy3sjYO2/cbukgLY0LYma/z0QV+DuTXGfxC9673TskS9f/N6a1cdWc0x2uPoDi+A==",
+  "dgSpecHash": "55R0KNs8iDNRO64GmOu6uhamLLxL5ECe8KoRaM8FtzKJa320KYG26kcf7TG8DXZt3/a9h+MooKqw/akHnuk4DA==",
   "success": true,
-  "projectFilePath": "C:\\projetos\\OAB\\Projeto\\CrossCuttingIoC\\CrossCuttingIoC.csproj",
+  "projectFilePath": "C:\\projetos\\oab-new\\oab\\Projeto\\CrossCuttingIoC\\CrossCuttingIoC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jpcos\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\jpcos\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512",

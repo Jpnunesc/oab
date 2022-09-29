@@ -49,27 +49,8 @@ namespace Api
                 };
             });
 
-            //services.AddDataProtection().PersistKeysToFileSystem(new DirectoryInfo(@"C:\temp-keys\"))
-            //    .UseCryptographicAlgorithms(new AuthenticatedEncryptorConfiguration()
-            //    {
-            //        EncryptionAlgorithm = EncryptionAlgorithm.AES_256_CBC,
-            //        ValidationAlgorithm = ValidationAlgorithm.HMACSHA256
-            //    });
-
-            var server = Configuration["DbServer"] ?? "localhost";
-            var port = Configuration["DbPort"] ?? "1450";
-            var user = Configuration["DbUser"] ?? "SA"; 
-            var password = Configuration["Password"] ?? "OcP2020123";
-            var database = Configuration["Database"] ?? "Oab010";
-
-
-            var connectionString = $"Server={server}, {port};Initial Catalog={database};User ID={user};Password={password}";
-
             services.AddDbContext<CodeContext>(options =>
-             options.UseSqlServer(connectionString));
-
-            //services.AddDbContext<CodeContext>(options =>
-            // options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddSwaggerGen(c =>
             {

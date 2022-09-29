@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QY07g3W7liM3pkg1XdyQqqVOIKZfbTFYmsMI2WnDl0cQ7EovF9ak9hnj4g+1gY+umfOGI1idD7GjCrYo3PbxWQ==",
+  "dgSpecHash": "QXDLQahakIFYNTQtmnftt2BVYLAfaLxs1cUEmtG1Ck23G8vHwj4ih5EJCL8x6vMrw3xi5i/IHowpFZIbnajLbQ==",
   "success": true,
-  "projectFilePath": "C:\\projetos\\OAB\\Projeto\\Business\\Business.csproj",
+  "projectFilePath": "C:\\projetos\\oab-new\\oab\\Projeto\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jpcos\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\jpcos\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512",
